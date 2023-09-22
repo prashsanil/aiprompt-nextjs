@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 const Home = () => {
   return (
@@ -8,8 +9,11 @@ const Home = () => {
         <span className="orange_gradient text-center"> AI Powered Prompts </span>
       </h1>
       <p className="desc text-center">
-      Create engaging prompts effortlessly. Explore popular prompts instantly!
+        Create engaging prompts effortlessly. Explore popular prompts instantly!
       </p>
+
+      {/* Feed Component */}
+      <Feed />
     </section>
   )
 }
