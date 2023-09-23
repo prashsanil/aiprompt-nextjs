@@ -1,6 +1,7 @@
 import '@styles/globals.css';
 
 import Navbar from '@components/Navbar';
+import Provider from '@components/Provider';
 
 // import Footer from "@components/Footer";
 
@@ -18,6 +19,7 @@ const RootLayout = ({ children }) => {
         </div>
 
         <main className="app">
+        <Navbar />
           {children}
         </main>
       </body>
