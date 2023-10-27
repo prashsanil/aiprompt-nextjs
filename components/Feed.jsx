@@ -24,9 +24,6 @@ const Feed = () => {
   const [searchText, setSearchText] = useState('');
   const [allPosts, setAllPosts] = useState([]);
 
-
-  
-
   //Fetch prompts from db
   useEffect(() => {
     const fetchPosts = async () => {
